@@ -77,3 +77,21 @@ influencer-roi-big-data-audit/
 └── Deliverables/
     ├── synthesis_report.docx
     └── presentation_deck.html
+```
+## 🛠️ Tech Stack & Tools
+
+**Core Language & Data Engineering**
+* **Python 3.x:** The primary language for all backend data processing, cleaning, and augmentation.
+* **Pandas & NumPy:** Utilized for high-performance tabular data manipulation, vectorized mathematical operations, and the implementation of the Gaussian noise augmentation matrix.
+
+**Machine Learning & Statistical Modeling**
+* **Scikit-Learn:** Deployed for predictive analytics, specifically utilizing `LinearRegression` for rigorous hypothesis testing and `RandomForestRegressor` for the target leakage demonstration.
+
+**Data Visualization & Business Intelligence**
+* **Tableau & Tableau Public:** The core enterprise BI tool used to architect the interactive 4-quadrant scatter plots, decay curves, and cross-sectional executive dashboards.
+* **Matplotlib & Seaborn:** Utilized within the Python environment for generating static coefficient trendlines, actual-vs-predicted scatter plots, and initial data exploration.
+
+**Version Control & Presentation**
+* **Git & GitHub:** For strict version control, directory management, and portfolio hosting.
+* **Markdown:** For comprehensive, structured documentation across all pipeline stages.
+* **HTML/CSS:** Deployed to architect the interactive, browser-based executive pitch deck for the final presentation.

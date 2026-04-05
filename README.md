@@ -75,8 +75,8 @@ influencer-roi-big-data-audit/
 │   │   └── regressor_model5.py
 │   └── README.md
 └── Deliverables/
-    ├── synthesis_report.docx
-    └── presentation_deck.html
+    ├── Synthesis_Report.pdf
+    └── Presentation_Deck.html
 ```
 ## 🛠️ Tech Stack & Tools
 

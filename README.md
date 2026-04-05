@@ -12,6 +12,11 @@ This repository contains an end-to-end Business Analytics and Data Engineering p
 
 By scaling an initial dataset of 150,000 campaigns to a robust 1,000,000-row synthetic population, this project deploys custom feature engineering, visual benchmarking, and rigorous predictive hypothesis testing to uncover the structural efficiencies of different social media platforms, campaign formats, and influencer niches.
 
+## 🗄️ Data Source & Context
+* **Original Source:** [Influencer Marketing ROI Dataset (Kaggle)](https://www.kaggle.com/datasets/tfisthis/influencer-marketing-roi-dataset)
+* **Baseline Overview:** The initial dataset provided a robust foundation of 150,000 unique records tracking influencer marketing campaigns across major social media platforms.
+* **Tracked Features:** The raw data included the campaign's `platform` (Instagram, YouTube, TikTok, Twitter), `influencer_category` (Fashion, Tech, Fitness, etc.), `campaign_type` (Product Launch, Brand Awareness, Giveaway, etc.), `start_date`, `end_date`, total user `engagements`, `estimated_reach`, actual `product_sales`, and `campaign_duration_days`.
+
 ## 🏗️ Project Architecture & Pipeline
 
 ### Phase 1: Data Engineering (`/Data Engineering`)
@@ -55,14 +60,25 @@ influencer-roi-big-data-audit/
 │       ├── data_downloader.py
 │       └── original_raw_dataset_sample.csv
 ├── Descriptive Analytics/
-│   ├── README.md
+│   └── README.md
 ├── predictive_analytics/
-│   ├── README.md
 │   ├── linear_regression_model_1/
+│   │   ├── 01_platform_dynamics.png
+│   │   └── regressor_model1.py
 │   ├── linear_regression_model_2/
+│   │   ├── 02_campaign_strategy_model.png
+│   │   └── regressor_model2.py
 │   ├── linear_regression_model_3/
+│   │   ├── 03A_normal_campaigns.png
+│   │   ├── 03B_viral_campaigns.png
+│   │   └── regressor_model3.py
 │   ├── linear_regression_model_4/
-│   └── linear_regression_model_5/
+│   │   ├── 04_realistic_model.png
+│   │   └── regressor_model4.py
+│   ├── linear_regression_model_5/
+│   │   ├── 05_realistic_model.png
+│   │   └── regressor_model5.py
+│   └── README.md
 └── Deliverables/
     ├── synthesis_report.docx
     └── presentation_deck.html

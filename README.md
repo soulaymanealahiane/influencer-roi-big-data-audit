@@ -32,7 +32,7 @@ Rather than brute-forcing high $R^2$ scores, we deployed Multiple Linear Regress
 * **The Virality A/B Test:** Sliced the dataset using our `is_viral_outlier` feature to prove that extreme algorithmic virality breaks standard conversion logic. 
 * **Target Leakage Demonstration:** Model 5 intentionally demonstrates the dangers of target leakage in enterprise ML pipelines by feeding the algorithm features algebraically derived from the target variable.
 
-### Phase 4: Deliverables (`/deliverables` - *Pending*)
+### Phase 4: Deliverables (`/Deliverables`)
 * **Synthesis Report:** A rigorous, 2-page academic and strategic summary of the audit's findings.
 * **Executive Pitch Deck:** An interactive HTML presentation designed to guide a 20-minute data-driven strategy briefing.
 
@@ -63,6 +63,6 @@ influencer-roi-big-data-audit/
 │   ├── linear_regression_model_3/
 │   ├── linear_regression_model_4/
 │   └── linear_regression_model_5/
-└── deliverables/
+└── Deliverables/
     ├── synthesis_report.docx
     └── presentation_deck.html

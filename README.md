@@ -1,11 +1,6 @@
 # 📈 Influencer Marketing ROI: Big Data Audit & Predictive Engine
 
-## 📊 Live Interactive Dashboards
-**[View the Executive Performance Dashboards on Tableau Public ↗](https://public.tableau.com/views/influencer-roi-big-data-audit/InfluencerCategoryDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-*(Note: The dashboards are hosted on Tableau Public to handle the 1,000,000-row augmented dataset without requiring local software installation. Click the link above for full interactivity and filtering.)*
-
----
 
 ## 📌 Executive Summary
 This repository contains an end-to-end Business Analytics and Data Engineering pipeline designed to audit social media performance. The core objective of this project is to mathematically separate "vanity metrics" (raw reach, basic engagements) from true business drivers (revenue conversion, algorithmic velocity). 
